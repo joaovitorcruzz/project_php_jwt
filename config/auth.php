@@ -40,11 +40,13 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
-
+        // Amnésia na hora de desenvolver, esquecimento dos commits granulares, vou comentando inicio e fim
+        //Inicio da implementação do api jwt
         'api' => [
             'driver' => 'jwt',
             'provider' => 'users',
         ],
+        //Final da implementação do api jwt
     ],
 
     /*
