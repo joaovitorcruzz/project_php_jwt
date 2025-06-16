@@ -1,3 +1,10 @@
+* Lider: João Vitor da Silva Cruz RA: 23057263-2
+* Integrante 2: Victor de Oliveira Cavalaro RA: 23105627-2
+* Integrante 3: Henrique Hiroshi Koshiba Reis RA: 23218806-2
+* Integrante 4: Eli Kayky Elias Balzani RA: 23202870-2
+* Integrante 5: Luiz Henrique Peschieira RA: 23094789-2
+* Integrante 6: Gustavo Alves Carneiro RA: 23202882-2
+
 # Projeto de API REST com Autenticação JWT e Níveis de Acesso
 
 ## 🎯 Objetivo
