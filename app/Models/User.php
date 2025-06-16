@@ -18,12 +18,15 @@ class User extends Authenticatable implements JWTSubject
      *
      * @var array<int, string>
      */
+    // Amnésia na hora de desenvolver, esquecimento dos commits granulares, vou comentando inicio e fim
+    // Inicio da permissao para criação em massa incluindo role
     protected $fillable = [
         'name',
         'email',
         'password',
         'role',
     ];
+    // Final da permissao para criação em massa incluindo role
 
     /**
      * The attributes that should be hidden for serialization.
