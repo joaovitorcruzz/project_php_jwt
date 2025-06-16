@@ -11,6 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
+        // Amnésia na hora de desenvolver, esquecimento dos commits granulares, vou comentando inicio e fim
+        // Inicio das migrations para criação da tabela users com as colunas prefixas
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('name');
@@ -21,6 +23,7 @@ return new class extends Migration
             $table->rememberToken();
             $table->timestamps();
         });
+        // Final das migrations para criação da tabela users com as colunas prefixas
 
         Schema::create('password_reset_tokens', function (Blueprint $table) {
             $table->string('email')->primary();
