@@ -12,9 +12,12 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware): void {
+        // Amnésia na hora de desenvolver, esquecimento dos commits granulares, vou comentando inicio e fim
+        // Inicio da criação do alias para verificação admin
         $middleware->alias([
             'admin' => \App\Http\Middleware\AdminMiddleware::class,
         ]);
+        // Final da criação do alias para verificação admin
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         //
