@@ -14,6 +14,8 @@ class AuthController extends Controller
     /**
      * Registra um novo usuário.
      */
+    // Amnésia na hora de desenvolver, esquecimento dos commits granulares, vou comentando inicio e fim
+    // Inicio do Register
     public function register(Request $request)
     {
         $validator = Validator::make($request->all(), [
@@ -39,10 +41,12 @@ class AuthController extends Controller
             'user' => $user
         ], 201);
     }
+    // Final do Register
 
     /**
      * Realiza o login e retorna um token JWT.
      */
+    // Inicio do Login
     public function login(Request $request)
     {
         $credentials = $request->only('email', 'password');
@@ -57,4 +61,5 @@ class AuthController extends Controller
             'expires_in' => JWTAuth::factory()->getTTL() * 60
         ]);
     }
+    // Final do Login
 }
