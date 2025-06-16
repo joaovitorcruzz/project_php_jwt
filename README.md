@@ -2,7 +2,7 @@
 
 ## 🎯 Objetivo
 
-Este projeto foi desenvolvido como parte da avaliação da disciplina de Programação Orientada a Objetos (POO). O objetivo é demonstrar a construção de uma API RESTful segura utilizando o framework **Laravel (PHP)**, implementando autenticação baseada em JSON Web Tokens (JWT) e controle de acesso por papéis (Roles).
+Este projeto foi desenvolvido como parte da avaliação da disciplina de Programação Avançada, (POO). O objetivo é demonstrar a construção de uma API RESTful segura utilizando o framework **Laravel (PHP)**, implementando autenticação baseada em JSON Web Tokens (JWT) e controle de acesso por papéis (Roles).
 
 A aplicação simula um sistema onde existem dois tipos de usuários:
 * **User**: Usuário comum, com permissão para gerenciar apenas seu próprio perfil.
