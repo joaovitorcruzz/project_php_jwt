@@ -37,8 +37,8 @@ Siga os passos abaixo para configurar e executar a aplicação em seu ambiente d
 ### Passos de Instalação
 
 1.  **Clone o repositório:**
-    ```bash
     git clone [https://github.com/joaovitorcruzz/project_php_jwt.git](https://github.com/joaovitorcruzz/project_php_jwt.git)
+    ```bash
     cd seu-repositorio
     ```
 
