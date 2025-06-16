@@ -25,6 +25,16 @@ A aplicação simula um sistema onde existem dois tipos de usuários:
 * **SQlite** (ou qualquer banco de dados relacional suportado pelo Laravel)
 * **Insomnia** (Para testes da API)
 
+## Arquivos importantes!
+* **0001_01_01_000000_create_users_table.php**
+* **api.php**
+* **auth.php**
+* **app.php**
+* **AdminMiddleware.php**
+* **AuthController.php**
+* **User.php**
+* **UserController.php**
+
 ## 🚀 Como Rodar o Projeto Localmente
 
 Siga os passos abaixo para configurar e executar a aplicação em seu ambiente de desenvolvimento.
